@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>FoodLancer | Sign In</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: #f5f5f5;
+    }
+    #logo {
+      padding-left: 100px;
+      font-family: monospace;
+    }
+    #logo span {
+      color: #cc5127;
+      font-weight: 900;
+      font-size: 39px;
+      font-family: cursive;
+    }
+    #logo a{
+      padding: 0px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:  #fff97d;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    	font-size: 20px;
+    }
+    li a:hover {
+        background-color: #fdc854;
+    }
+    li h3{
+      margin: 0px;
+      padding: 0px;
+    }
+    table{
+        width: 450px;
+        height: 280px;
+        margin-top: 50px;
+        padding: 20px 30px;
+        border: 1px solid #dddddd;
+        background-color: #ffffff;
+    }
+    td{
+      padding: 0;
+    }
+    .form-control {
+        width: 200px;
+        height: 25px;
+        padding: 5px 12px;
+        font-size: 15px;
+        color: #202c45;
+        /*background-image: none;*/
+        border: 1px solid #bdbdbd;
+        border-radius: 2px;
+    }
+    #login{
+      align: center;
+      width: 80px;
+      height: auto;
+      padding: 5px 10px;
+
+    }
+
+    /*html {
+      background: url(in.png) no-repeat center fixed;
+      background-size: cover;
+    }*/
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="home_div1" >
+      <!-- START HEADER -->
+      <ul>
+        <li style="float:left; color:#cc5127" id="logo"> <a href="home.html"> <h3><span>F</span>oodLancer</h3> </a> </li>
+        <!-- <li style="float:right;width:100px;height:45px;" ><a href="#about">Login</a> </li>
+        <li style="float:right;width:180px;height:45px;"><a href="#contact">Apply As A Chef</a></li>
+        <li style="float:right;width:140px;height:45px;"><a href="#news">01738291879</a></li> -->
+      </ul>
+      <!-- END HEADER -->
+
+      <!-- START BODY CONTENT -->
+      <div align="center" >
+        <table align="center" >
+          <form action="sign" >
+            <tr>
+               <td>
+                 <h3> User Name </h3>
+               </td>
+               <td>
+                  <input type="text" class="form-control" name="UserName" id="username" placeholder="User Name">
+               </td>
+            </tr> <br>
+            <tr> <td> <h3>  Password </h3></td>
+              <td>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" class="btn ">  <a href="home.html"> Log In </button>
+              </td>
+            </tr>
+          </form>
+        </table>
+      </div>
+      <!-- END BODY CONTENT -->
+    </div>
+  </div>
+</body>
+
+</html>
